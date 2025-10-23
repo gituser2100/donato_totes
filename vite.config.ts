@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/donato_totes',
+  base: '/donato_totes/',
   plugins: [
     tailwindcss(),
     react({

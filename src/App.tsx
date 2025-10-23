@@ -10,7 +10,7 @@ const router = createBrowserRouter(
       <Route path='/gallery' element={<Gallery />} />
     </Route>
   ),{
-    basename: '/donato_totes',
+    basename: '/donato_totes/',
   }
 )
 
