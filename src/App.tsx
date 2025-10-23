@@ -9,7 +9,9 @@ const router = createBrowserRouter(
       <Route index path='/' element={<HomePage />} />
       <Route path='/gallery' element={<Gallery />} />
     </Route>
-  )
+  ),{
+    basename: '/donato_totes',
+  }
 )
 
 export default router;
